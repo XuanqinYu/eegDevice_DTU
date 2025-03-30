@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+F:/Project/espidf_pro/ble_basic/build/CMakeFiles/bootloader
+F:/Project/espidf_pro/ble_basic/build/CMakeFiles/bootloader.rule
+F:/Project/espidf_pro/ble_basic/build/CMakeFiles/bootloader-complete.rule
+F:/Project/espidf_pro/ble_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+F:/Project/espidf_pro/ble_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+F:/Project/espidf_pro/ble_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+F:/Project/espidf_pro/ble_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+F:/Project/espidf_pro/ble_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+F:/Project/espidf_pro/ble_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+F:/Project/espidf_pro/ble_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
