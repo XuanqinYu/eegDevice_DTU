@@ -1,0 +1,73 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "PMIC-LDO-XC6206P332MR-G_SOT23_" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -8.90139 5.08651 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "PMIC-LDO-XC6206P332MR-G_SOT23_" (id 1) (at -1.27151 5.08602 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "PMIC-LDO-XC6206P332MR-G_SOT23_:SOT-23" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MPN" "XC6206P332MR-G" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "PMIC-LDO-XC6206P332MR-G_SOT23__0_0"
+      (polyline
+        (pts (xy -8.89 3.81) (xy 8.89 3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 8.89 3.81) (xy 8.89 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 8.89 0.0) (xy 8.89 -3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 8.89 -3.81) (xy 0.0 -3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -3.81) (xy -8.89 -3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -8.89 -3.81) (xy -8.89 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -8.89 0.0) (xy -8.89 3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -10.16 0.0) (xy -8.89 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -5.08) (xy 0.0 -3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 10.16 0.0) (xy 8.89 0.0)) (stroke (width 0.1524))
+      )
+      (pin input line (at -12.7 0.0 0) (length 2.54)
+        (name "VIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 12.7 0.0 180.0) (length 2.54)
+        (name "VOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 0.0 -7.62 90.0) (length 2.54)
+        (name "VSS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
